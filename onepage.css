@@ -1,0 +1,542 @@
+@charset "UTF-8";
+
+body {
+    overflow-x: hidden;
+    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    width: 100%;
+}
+
+.img-centered {
+    margin: 0 auto;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+
+header {
+    text-align: center;
+    color: #fff;
+    background-attachment: scroll;
+  
+    
+   
+  
+	background-size:100%;
+}
+
+header .intro-text {
+    padding-top: 300px;
+    padding-bottom: 200px;
+}
+
+header .intro-text .intro-lead-in {
+    margin-bottom: 25px;
+	text-transform: uppercase;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 22px;
+	color: orange;
+    font-style: italic;
+    line-height: 22px;
+	
+}
+
+
+header .intro-text .intro-heading {
+    margin-bottom: 250px;
+    color:orange;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 50px;
+}
+
+
+.intro-header {
+ 
+    text-align: center;
+    color: #f8f8f8;
+    background: url(images/screen3_2.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.intro-message {
+    position: relative;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color:black;
+}
+
+.intro-message > h1 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    
+}
+
+.list-inline .intro-social-buttons{
+	display:inline;	
+	
+}
+
+div .row{
+    margin-right: 150px;
+    margin-left: 150px;
+
+}
+
+
+
+ul.list-inline .intro-social-buttons{
+    display: inline-block;
+}
+
+.intro-message img{
+    width:100%;
+}
+
+
+#draggablediv{
+    width:147px;
+    height:75px;
+    float: right; 
+    color:#B1450C;
+   margin: 50px 10px 10px 0;
+
+}
+    
+#droppablediv{
+    width:200px;
+    height:200px;
+    color:#B1450C;
+    margin-left:44px;
+    margin-top:-260px;
+    opacity: 0;
+
+}
+    
+.dropped{
+        
+    width:10px;
+    height:20px; 
+    font-size: 25px; 
+
+}
+
+.spacer {
+
+    padding: 15px;
+}
+
+.intro-message img{
+    width:100%;
+}
+
+
+#content img{
+    position:relative;
+    margin-top:0px;
+    width:100%;
+    
+}
+
+
+
+
+
+#modalContainer {
+   
+    position:absolute;
+    background-size: 500px;
+    background-repeat: no-repeat;
+  
+    width: 500px;
+ 
+   
+}
+
+#alertBox{
+    margin-top:100px;
+
+}
+
+
+#closeBtn{
+    margin-left:115px;
+    padding-bottom: 100px;
+    z-index: 1;
+    
+
+}
+
+#closeBtn1{
+    margin-left:50px;
+    
+    padding:100px;
+}
+
+#mContainer {
+    position:relative;
+    width:600px;
+    margin:0 auto;
+    padding:5px;
+    background-position: top;
+    font:0.7em verdana,arial;
+}
+
+h1,h2 {
+    margin:0;
+    padding:4px;
+    font:bold 1.5em verdana;
+    border-bottom:1px solid #000;
+}
+
+code {
+    font-size:1.2em;
+    color:#069;
+}
+
+#credits {
+    position:relative;
+    margin:25px auto 0px auto;
+    width:350px; 
+    font:0.7em verdana;
+    border-top:1px solid #000;
+    border-bottom:1px solid #000;
+    height:90px;
+    padding-top:4px;
+}
+
+#credits img {
+    float:left;
+    margin:5px 10px 5px 0px;
+    border:1px solid #000000;
+    width:80px;
+    height:79px;
+}
+
+.important {
+    background-color:#F5FCC8;
+    padding:2px;
+}
+
+code span {
+    color:green;
+}
+
+
+
+#parallax { 
+    width: 100%; 
+    height: 100%; 
+    
+}
+
+#test {
+    position: fixed; 
+    top: 0; 
+    left: 0;
+}
+
+.example{
+    
+    width:600px; 
+    top: 50px; 
+    left: 170px; 
+    margin:0 auto;
+}
+
+.example1{
+    margin:0 auto;
+    top: 300px; 
+    left: 0;
+}
+
+.ui-icon-myicon:after {
+    background-image: url("images/icon.png");
+    /* Make your icon fit */
+    background-size: 18px 18px;
+
+}
+
+.ui-icon-myicon {
+  -ms-transform: scale(2); /* IE 9 */
+  -webkit-transform: scale(2); /* Chrome, Safari, Opera */
+  transform: scale(2);
+  margin-top: 10px;
+  margin-left: 20px;
+
+}
+
+.hidden {
+     display:none;
+}
+
+.ui-icon-myicon1:after {
+    background-image: url("images/iconhome-01.png");
+    /* Make your icon fit */
+    background-size: 21px 21px;
+
+}
+
+.ui-icon-myicon1 {
+    zoom:2;
+  -ms-transform: scale(2) !important; 
+  -webkit-transform: scale(2) !important; /* Chrome, Safari, Opera */
+  transform: scale(2) !important;
+  margin-top: 10px;
+  margin-left: 20px;
+
+}
+
+.ui-icon-myicon2:after {
+    background-image: url("images/iconsetting-01.png");
+    /* Make your icon fit */
+    background-size: 21px 21px;
+
+}
+
+.ui-icon-myicon2 {
+    zoom:2;
+  -ms-transform: scale(2); /* IE 9 */
+  -webkit-transform: scale(2); /* Chrome, Safari, Opera */
+  transform: scale(2);
+  margin-top: 10px;
+  margin-left: 20px;
+
+}
+
+.ui-icon-myicon3:after {
+    background-image: url("images/iconlightbulb-01.png");
+    /* Make your icon fit */
+    background-size: 21px 21px;
+
+}
+
+.ui-icon-myicon3 {
+    zoom:2;
+  -ms-transform: scale(2); /* IE 9 */
+  -webkit-transform: scale(2); /* Chrome, Safari, Opera */
+  transform: scale(2);
+  margin-top: 10px;
+  margin-left: 20px;
+
+}
+
+
+
+
+
+@media screen and (min-width:768px) {
+	.intro-header {
+  
+    text-align: center;
+    color: #f8f8f8;
+    background: url(images/screen3_2.png) no-repeat center center;
+    
+    background-size: cover;
+}
+	
+	
+	
+	
+    header .intro-text {
+        padding-top: 300px;
+        padding-bottom: 200px;
+    }
+
+    header .intro-text .intro-lead-in {
+        margin-bottom: 25px;
+		text-transform: uppercase;
+        font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 40px;
+        font-style: italic;
+        line-height: 40px;
+		
+    }
+
+    header .intro-text .intro-heading {
+        margin-bottom: 50px;
+      
+        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 75px;
+        font-weight: 200;
+        line-height: 75px;
+    }
+	
+	.intro-header {
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    
+}
+	
+	
+	.intro-message {
+		position: relative;
+    	padding-top: 20%;
+        padding-bottom: 15%;
+        color:black;
+    }
+
+    .intro-message > h1 {
+        font-size: 3em;
+    }
+	
+	ul.intro-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.intro-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+
+    ul.list-inline .intro-social-buttons{
+    display:inline;
+}
+
+div .row{
+    margin-right: 100px;
+    margin-left: 100px;
+    display: inline-block;
+	
+}
+
+.intro-message img{
+    width:100%;
+}
+
+
+	
+#parallax { 
+    width: 50%; 
+    height: 100%; 
+    position: absolute;
+}
+
+.example{
+    position: absolute;
+    width:560px; 
+    margin-top: 50px; 
+    margin-left: 20px;
+    
+}
+
+.example1{
+    margin:0 auto;
+    position: relative; 
+    top: 300px; 
+    left: 0;
+}
+
+#modalContainer {
+    
+    position:relative;
+    background-size: 500px;
+    background-repeat: no-repeat;
+    
+    margin: 0 auto;
+
+    background-image:url(images/reward1.png); 
+    background-position: top; /* required by MSIE to prevent actions on lower z-index elements */
+}
+
+#modalContainer2 {
+    
+    position:relative;
+    background-size: 500px;
+    background-repeat: no-repeat;
+    
+    margin: 0 auto;
+
+    background-image:url(images/oops.png); 
+    background-position: top; /* required by MSIE to prevent actions on lower z-index elements */
+}
+
+
+#alertBox{
+    margin-top:100px;
+
+}
+
+ #closeBtn{
+    
+    margin-bottom: -100px;
+    position:absolute;
+    margin-top:-300px;
+    padding-top:680px;
+    opacity: 0;
+
+    
+
+}
+
+#closeBtn1{
+    margin-left:220px;
+    position:absolute;
+    margin-top:270px;
+    opacity: 0;
+}
+
+
+
+}
+
+
+
+
+@media screen and (max-width:300px) {
+.intro-header {
+ 
+    text-align: center;
+    color: #f8f8f8;
+    background: url(images/screen3_2.png) no-repeat center center;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    
+    -o-background-size: 100%;
+    background-size: cover;
+}
+
+#parallax { 
+    width: 50%; 
+    height: 100%; 
+    position: absolute;
+}
+
+.example{
+    position: absolute;
+    width:100px; 
+    margin-top: 50px; 
+    margin-left: 170px;
+    }
+
+.example1{
+    margin:0 auto;
+    position: relative; 
+    top: 100px; 
+    left: 0;
+}
+
+
+
+
+
+/* unrelated styles */
+
+
+}
